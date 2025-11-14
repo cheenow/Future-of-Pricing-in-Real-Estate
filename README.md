@@ -1,16 +1,16 @@
-# 🏡 Future of Pricing in Real Estate
+# Future of Pricing in Real Estate
 A data-driven analysis of housing prices using Python, pandas, scikit-learn, and Seaborn.
 
-## 🚀 Overview
+## Overview
 This project explores real estate pricing trends and identifies the features that influence house prices the most. Using statistical methods and machine-learning models, it predicts home values and compares model performance.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Dataset:** [Kaggle – KC Housing Data](https://www.kaggle.com/datasets/shivachandel/kc-house-data)
 - **Platform:** Jupyter Notebook  
 - **Language:** Python  
 - **Libraries:** pandas, numpy, seaborn, scikit-learn, matplotlib  
 
-## 📂 Data Preparation Workflow
+## Data Preparation Workflow
 1. Loaded and reviewed the dataset to understand structure and data types.  
 2. Explored numerical features (min, max, mean) to understand data ranges.  
 3. Checked and handled missing values in key columns.  
@@ -22,7 +22,7 @@ This project explores real estate pricing trends and identifies the features tha
 9. Bucketed bedrooms, bathrooms, grade, and zipcode into meaningful ranges.  
 10. Created dummy variables (one-hot encoding) for all categorical and bucketed features.
 
-## 🔍 Variable Selection Methods
+## Variable Selection Methods
 | Method | Meaning |
 |--------|---------|
 | Forward Selection (Adj. R²) | Adds variables based on improvement. |
@@ -31,11 +31,14 @@ This project explores real estate pricing trends and identifies the features tha
 | RFE | Recursively removes weakest predictors. |
 | LASSO | Shrinks coefficients to keep strongest predictors. |
 
-## 🤖 Predictive Models
-- K-Nearest Neighbors (KNN) Classification  
-- Multiple Linear Regression  
+## Predictive Models
+| Algorithm | Type | What It Does | When It’s Useful |
+|----------|------|--------------|------------------|
+| **K-Nearest Neighbors (KNN) Classification** | Classification | Looks at the *k* most similar past observations and predicts the class (e.g., high price vs low price) based on the majority. | When you want simple, distance-based predictions and your features are well-scaled. Great for classification tasks. |
+| **Multiple Linear Regression** | Regression | Models the relationship between several input features and a continuous output (price). It finds the best-fitting line through the data. | When you need actual numeric predictions (e.g., dollar price). Works best when relationships are roughly linear. |
 
-## 📈 Key Findings
+
+## Key Findings
 
 ### 1️⃣ Most Important Variables for Predicting Price
 - waterfront  
@@ -67,7 +70,7 @@ This project explores real estate pricing trends and identifies the features tha
 - Linear Regression → best for predicting dollar price  
 - KNN → best for classifying price level  
 
-### 🏠 Price Predictions for Two Houses
+### Price Predictions for Two Houses
 | House | Actual | Predicted | Error | Accuracy |
 |--------|---------|------------|--------|-----------|
 | House 1 | \$459,000 | \$426,612 | 7.06% | 92.94% |
