@@ -4,7 +4,6 @@ A data-driven analysis of housing prices using Python, pandas, scikit-learn, and
 ## Overview
 This project explores real estate pricing trends and identifies the features that influence house prices the most. Using statistical methods and machine-learning models, it predicts home values and compares model performance.
 
-## Tools & Technologies
 - **Dataset:** [Kaggle – KC Housing Data](https://www.kaggle.com/datasets/shivachandel/kc-house-data)
 - **Platform:** Jupyter Notebook  
 - **Language:** Python  
