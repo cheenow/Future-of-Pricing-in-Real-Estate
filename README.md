@@ -7,7 +7,11 @@ This project explores real estate pricing trends and identifies the features tha
 - **Dataset:** [Kaggle – KC Housing Data](https://www.kaggle.com/datasets/shivachandel/kc-house-data)
 - **Platform:** Jupyter Notebook  
 - **Language:** Python  
-- **Libraries:** pandas, numpy, seaborn, scikit-learn, matplotlib  
+- **Libraries:** pandas, numpy, seaborn, scikit-learn, matplotlib
+
+## Project Files
+
+### **All source code and project files are available in the repository’s Code section.**
 
 ## Data Preparation Workflow
 1. Loaded and reviewed the dataset to understand structure and data types.  
